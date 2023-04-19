@@ -1,0 +1,93 @@
+@startuml
+
+class landing_page {
+
+}
+input_form "1" --* "1" landing_page
+
+
+class input_form {
+
+}
+input_form *-- processor_type
+input_form *-- hdd_capacity
+input_form *-- ram_capacity
+input_form *-- diplay_size
+input_form *-- display_type
+input_form *-- model
+input_form *-- producer
+
+class parameter {
+id
+name
+price
+}
+parameter <|-- processor_type
+parameter <|-- hdd_capacity
+parameter <|-- ram_capacity
+parameter <|-- diplay_size
+parameter <|-- display_type
+parameter <|-- model
+parameter <|-- producer
+
+class computer_configuration {
+price
+selected_ram_capacity
+selected_display_type
+selected_diplay_size
+selected_model
+selected_producer
+selected_processor_type
+selected_hdd_capacity
+}
+computer_configuration --* landing_page
+
+class processor_type {
+
+}
+
+class hdd_capacity{
+
+}
+
+class ram_capacity{
+
+}
+
+class diplay_size{
+}
+
+class display_type{
+
+}
+
+class model{
+
+}
+
+class producer{
+
+}
+
+class default_value {
+
+}
+default_value --* parameter
+
+
+class buy_button {
+
+}
+buy_button --* landing_page
+
+class cancel_button {
+
+}
+cancel_button --* landing_page
+
+class message {
+
+}
+message --* landing_page
+
+@enduml
