@@ -15,8 +15,7 @@
 
 <body>
 
-<h1 style="font-size: xx-large; font-family: Arial; margin-top: 2% ;text-align: center; color: cornflowerblue">Online
-    Computer Store</h1>
+<h1 style="font-size: xx-large; font-family: Arial; margin-top: 2% ;text-align: center; color: cornflowerblue">Online Computer Store</h1>
 
 <form id="paramater">
     <label style="font-size: x-large; font-family: Arial; margin-left: 2%;">PROCESSOR type</label><br>
@@ -24,17 +23,17 @@
     <img src="intel.png" width="70" height="70">
     <select onclick="calculate_price()" onchange="select_intel_processor()" id="CPU_INTEL">
         <option></option>
-        <option id="CPU0_i3" value="1059">Procesor Intel Core i3-12100 - 3.30GHz - 4.30GHz, 12MB cache, 60W</option>
-        <option id="CPU1_i5" value="1810.91">Procesor Intel Core i5-12600K - 2.80GHz - 4.90GHz, 20MB cache, 125W</option>
-        <option id="CPU2_i7" value="2631.09">Procesor Intel Core i7-12700K - 3.60GHz - 5.00GHz, 25MB cache, 125W</option>
+        <option id="CPU0_i3" value="1059">Procesor Intel Core i3-12100 - 3.30GHz - 4.30GHz, 12MB cache, 60W - 1059.10 lei</option>
+        <option id="CPU1_i5" value="1810.91">Procesor Intel Core i5-12600K - 2.80GHz - 4.90GHz, 20MB cache, 125W - 1810.91 lei</option>
+        <option id="CPU2_i7" value="2631.09">Procesor Intel Core i7-12700K - 3.60GHz - 5.00GHz, 25MB cache, 125W - 2631.09 lei</option>
     </select><br>
 
     <br><label style="font-size: large; font-family: Arial; margin-left: 5%;">AMD Processors</label>
     <img src="amd.png" width="70" height="70">
     <select onclick="calculate_price()" onchange="select_amd_processor()" id="CPU_AMD">
         <option></option>
-        <option id="CPU3_R3" value="752.65">Procesor AMD Ryzen 3 4100 - 3.8GHz - 4.0GHz, 6MB Cache, 65W</option>
-        <option id="CPU4_R3" value="639.99">Procesor AMD Ryzen 3 3300X - 3.8Ghz - 4.3GHz, 18MB Cache, 65W</option>
+        <option id="CPU3_R3" value="752.65">Procesor AMD Ryzen 3 4100 - 3.8GHz - 4.0GHz, 6MB Cache, 65W - 752.65 lei</option>
+        <option id="CPU4_R3" value="639.99">Procesor AMD Ryzen 3 3300X - 3.8Ghz - 4.3GHz, 18MB Cache, 65W - 639.99 lei</option>
     </select>
     <br>
 
@@ -44,8 +43,8 @@
     <img src="hdd.png" width="70" height="70">
     <select onclick="calculate_price()" onchange="select_hdd()" id="HDD">
         <option></option>
-        <option id="HDD_0" value="434.45">HDD WD 1TB, 7200rpm, 64MB cache, SATA III</option>
-        <option id="HDD_1" value="934.78">HDD Seagate 4TB, 7200rpm, 128MB cache, SATA III</option>
+        <option id="HDD_0" value="434.45">HDD WD 1TB, 7200rpm, 64MB cache, SATA III - 434.45 lei</option>
+        <option id="HDD_1" value="934.78">HDD Seagate 4TB, 7200rpm, 128MB cache, SATA III - 934.78 lei</option>
     </select>
     <br>
 
@@ -53,9 +52,9 @@
     <img src="ssd.png" width="70" height="70">
     <select onclick="calculate_price()" onchange="select_sdd()" id="SDD">
         <option></option>
-        <option id="SDD_0" value="89.99">Solid State Drive (SSD) Kingston A400, 240GB, 2.5inch, SATA III</option>
-        <option id="SDD_1" value="139.00">Solid State Drive (SSD) Kingston A400, 480GB, 2.5inch, SATA III</option>
-        <option id="SDD_2" value="368.99">Solid State Drive (SSD) Samsung 870 QVO, 1TB, 2.5inch, SATA III</option>
+        <option id="SDD_0" value="89.99">Solid State Drive (SSD) Kingston A400, 240GB, 2.5inch, SATA III - 89.99 lei</option>
+        <option id="SDD_1" value="139.00">Solid State Drive (SSD) Kingston A400, 480GB, 2.5inch, SATA III - 139.00 lei</option>
+        <option id="SDD_2" value="368.99">Solid State Drive (SSD) Samsung 870 QVO, 1TB, 2.5inch, SATA III - 368.99 lei</option>
     </select>
     <br>
 
@@ -65,8 +64,8 @@
     <img src="ram.png" width="70" height="70">
     <select onclick="calculate_price()" onchange="select_ddr4_ram()" id="DDR4">
         <option></option>
-        <option id="DDR4_0" value="327.61">Memorie Corsair Vengeance RGB PRO, 16GB, DDR4, 3200MHz</option>
-        <option id="DDR4_1" value="434.62">Memorie Corsair Vengeance LPX Black, 32GB, DDR4, 3200MHz</option>
+        <option id="DDR4_0" value="327.61">Memorie Corsair Vengeance RGB PRO, 16GB, DDR4, 3200MHz - 327.61 lei</option>
+        <option id="DDR4_1" value="434.62">Memorie Corsair Vengeance LPX Black, 32GB, DDR4, 3200MHz - 434.62 lei</option>
     </select>
     <br>
 
@@ -74,8 +73,8 @@
     <img src="ram.png" height="70" width="70">
     <select onclick="calculate_price()" onchange="select_ddr5_ram()" id="DDR5">
         <option></option>
-        <option id="DDR5_0" value="299.99">Memorie ADATA XPG LANCER RGB, 16GB DDR5, 5600MHz</option>
-        <option id="DDR5_1" value="743.99">Memorie ADATA XPG LANCER RGB, 32GB DDR5, 5200MHz</option>
+        <option id="DDR5_0" value="299.99">Memorie ADATA XPG LANCER RGB, 16GB DDR5, 5600MHz - 299.99 lei</option>
+        <option id="DDR5_1" value="743.99">Memorie ADATA XPG LANCER RGB, 32GB DDR5, 5200MHz - 743.99 lei</option>
     </select>
     <br>
 
@@ -85,8 +84,8 @@
     <img src="size.png" height="70" width="70">
     <select onclick="calculate_price()" onchange="select_hd_display()" id="HD19">
         <option></option>
-        <option id="HD19_0" value="355.30">Monitor LED Dell, 19.5inch, HD+, VGA</option>
-        <option id="HD19_1" value="467.25">Monitor LED TN LG, 19.5inch, HD, HDMI</option>
+        <option id="HD19_0" value="355.30">Monitor LED Dell, 19.5inch, HD+, VGA - 355.30 lei</option>
+        <option id="HD19_1" value="467.25">Monitor LED TN LG, 19.5inch, HD, HDMI - 467.25 lei</option>
     </select>
     <br>
 
@@ -94,8 +93,8 @@
     <img src="size.png" height="70" width="70">
     <select onclick="calculate_price()" onchange="select_fhd24_display()" id="FHD24">
         <option></option>
-        <option id="FHD24_0" value="482.99">Monitor LED MVA AOC, 23.6inch, FHD, 2xHDMI</option>
-        <option id="FHD24_1" value="501.99">Monitor LED MVA AOC, 23.6inch, FHD, HDMI</option>
+        <option id="FHD24_0" value="482.99">Monitor LED MVA AOC, 23.6inch, FHD, 2xHDMI - 482.99 lei</option>
+        <option id="FHD24_1" value="501.99">Monitor LED MVA AOC, 23.6inch, FHD, HDMI - 501.99 lei</option>
     </select>
     <br>
 
@@ -103,8 +102,8 @@
     <img src="size.png" height="70" width="70">
     <select onclick="calculate_price()" onchange="select_fhd27_display()" id="FHD27">
         <option></option>
-        <option id="FHD27_0" value="612.99">Monitor Philips LED VA, 27inch, FHD, HDMI, VGA</option>
-        <option id="FHD27_1" value="649.99">Monitor LG Gaming LED IPS, 27inch, FHD, VGA, HDMI, Display Port</option>
+        <option id="FHD27_0" value="612.99">Monitor Philips LED VA, 27inch, FHD, HDMI, VGA - 612.99 lei</option>
+        <option id="FHD27_1" value="649.99">Monitor LG Gaming LED IPS, 27inch, FHD, VGA, HDMI, Display Port - 649.99 lei</option>
     </select>
     <br>
 
@@ -119,7 +118,6 @@
         <p style="font-size: large" id="ram"></p>
         <p style="font-size: large" id="display"></p>
         <p style="font-size: large" id="price"></p>
-
     </div>
 
     <button onclick="buy()" id="BUY" name="Buy button" style="margin-left: 45%;">BUY</button>
@@ -130,56 +128,162 @@
 
 <script>
 
-    function buy() {
-        alert("Thank You!")
-    }
-
+    // functia calculeaza pretul total al produselor selectate
     function calculate_price() {
-        let a = document.getElementById("CPU_INTEL")
-        computer_configuration.selected_intel_processor = a.options[a.selectedIndex].value
+        let cpu_intel_price = document.getElementById("CPU_INTEL")
+        computer_configuration.selected_intel_processor = cpu_intel_price.options[cpu_intel_price.selectedIndex].value
 
-        let b = document.getElementById("CPU_AMD")
-        computer_configuration.selected_amd_processor = b.options[b.selectedIndex].value
+        let cpu_amd_price = document.getElementById("CPU_AMD")
+        computer_configuration.selected_amd_processor = cpu_amd_price.options[cpu_amd_price.selectedIndex].value
 
-        let c = document.getElementById("HDD")
-        computer_configuration.selected_hdd = c.options[c.selectedIndex].value
+        let hdd_price = document.getElementById("HDD")
+        computer_configuration.selected_hdd = hdd_price.options[hdd_price.selectedIndex].value
 
-        let d = document.getElementById("SDD")
-        computer_configuration.selected_sdd = d.options[d.selectedIndex].value
+        let sdd_price = document.getElementById("SDD")
+        computer_configuration.selected_sdd = sdd_price.options[sdd_price.selectedIndex].value
 
-        let e = document.getElementById("DDR4")
-        computer_configuration.selected_ddr4_ram = e.options[e.selectedIndex].value
+        let ddr4_price = document.getElementById("DDR4")
+        computer_configuration.selected_ddr4_ram = ddr4_price.options[ddr4_price.selectedIndex].value
 
-        let f = document.getElementById("DDR5")
-        computer_configuration.selected_ddr5_ram = f.options[f.selectedIndex].value
+        let ddr5_price = document.getElementById("DDR5")
+        computer_configuration.selected_ddr5_ram = ddr5_price.options[ddr5_price.selectedIndex].value
 
-        let g = document.getElementById("HD19")
-        computer_configuration.selected_hd_display = g.options[g.selectedIndex].value
+        let hd19_price = document.getElementById("HD19")
+        computer_configuration.selected_hd_display = hd19_price.options[hd19_price.selectedIndex].value
 
-        let h = document.getElementById("FHD24")
-        computer_configuration.selected_fhd24_display = h.options[h.selectedIndex].value
+        let fhd24_price = document.getElementById("FHD24")
+        computer_configuration.selected_fhd24_display = fhd24_price.options[fhd24_price.selectedIndex].value
 
-        let i = document.getElementById("FHD27")
-        computer_configuration.selected_fhd27_display = i.options[i.selectedIndex].value
+        let fhd27_price = document.getElementById("FHD27")
+        computer_configuration.selected_fhd27_display = fhd27_price.options[fhd27_price.selectedIndex].value
 
-        computer_configuration.selected_intel_processor = Number(computer_configuration.selected_intel_processor)
-        computer_configuration.selected_amd_processor = Number(computer_configuration.selected_amd_processor)
-        computer_configuration.selected_hdd = Number(computer_configuration.selected_hdd)
-        computer_configuration.selected_sdd = Number(computer_configuration.selected_sdd)
-        computer_configuration.selected_ddr4_ram = Number(computer_configuration.selected_ddr4_ram)
-        computer_configuration.selected_ddr5_ram = Number(computer_configuration.selected_ddr5_ram)
-        computer_configuration.selected_hd_display = Number(computer_configuration.selected_hd_display)
-        computer_configuration.selected_fhd24_display = Number(computer_configuration.selected_fhd24_display)
-        computer_configuration.selected_fhd27_display = Number(computer_configuration.selected_fhd27_display)
-
-        computer_configuration.total_price = computer_configuration.selected_intel_processor + computer_configuration.selected_amd_processor + computer_configuration.selected_hdd
-            + computer_configuration.selected_sdd + computer_configuration.selected_ddr4_ram + computer_configuration.selected_ddr5_ram
-            + computer_configuration.selected_hd_display + computer_configuration.selected_fhd24_display + computer_configuration.selected_fhd27_display
-        document.getElementById("price").innerHTML = "Total price: " + computer_configuration.total_price + " lei"
+        computer_configuration.total_price = Number(computer_configuration.selected_intel_processor) + Number(computer_configuration.selected_amd_processor) + Number(computer_configuration.selected_hdd)
+            + Number(computer_configuration.selected_sdd) + Number(computer_configuration.selected_ddr4_ram) + Number(computer_configuration.selected_ddr5_ram)
+            + Number(computer_configuration.selected_hd_display) + Number(computer_configuration.selected_fhd24_display) + Number(computer_configuration.selected_fhd27_display)
+        document.getElementById("price").innerHTML = "Total price: " + computer_configuration.total_price.toFixed(2) + " lei"
         console.log(computer_configuration)
     }
 
+    // functiile afiseaza produsule selectate
+
     function select_intel_processor() {
+        let intel_processors = document.getElementById("CPU_INTEL")
+        let i = intel_processors.selectedIndex
+        document.getElementById("processor").innerHTML = intel_processors.options[i].text
+        if (intel_processors.options[i].selected === true) {
+            document.getElementById("CPU_AMD").disabled = true
+        }
+        if (intel_processors.options[0].selected === true) {
+            document.getElementById("CPU_AMD").disabled = false
+        }
+    }
+
+    function select_amd_processor() {
+        let amd_processors = document.getElementById("CPU_AMD")
+        let i = amd_processors.selectedIndex
+        document.getElementById("processor").innerHTML = amd_processors.options[i].text
+        if (amd_processors.options[i].selected === true) {
+            document.getElementById("CPU_INTEL").disabled = true
+        }
+        if (amd_processors.options[0].selected === true) {
+            document.getElementById("CPU_INTEL").disabled = false
+        }
+    }
+
+    function select_hdd () {
+        let hdd = document.getElementById("HDD")
+        let i = hdd.selectedIndex
+        document.getElementById("disk_drive").innerHTML = hdd.options[i].text
+        if (hdd.options[i].selected === true) {
+            document.getElementById("SDD").disabled = true
+        }
+        if (hdd.options[0].selected === true) {
+            document.getElementById("SDD").disabled = false
+        }
+    }
+
+    function select_sdd () {
+        let sdd = document.getElementById("SDD")
+        let i = sdd.selectedIndex
+        document.getElementById("disk_drive").innerHTML = sdd.options[i].text
+        if (sdd.options[i].selected === true) {
+            document.getElementById("HDD").disabled = true
+        }
+        if (sdd.options[0].selected === true) {
+            document.getElementById("HDD").disabled = false
+        }
+    }
+
+    function select_ddr4_ram() {
+        let ddr4_ram = document.getElementById("DDR4")
+        let i = ddr4_ram.selectedIndex
+        document.getElementById("ram").innerHTML = ddr4_ram.options[i].text
+        if (ddr4_ram.options[i].selected === true) {
+            document.getElementById("DDR5").disabled = true
+        }
+        if (ddr4_ram.options[0].selected === true) {
+            document.getElementById("DDR5").disabled = false
+        }
+    }
+
+    function select_ddr5_ram() {
+        let ddr5_ram = document.getElementById("DDR5")
+        let i = ddr5_ram.selectedIndex
+        document.getElementById("ram").innerHTML = ddr5_ram.options[i].text
+        if (ddr5_ram.options[i].selected === true) {
+            document.getElementById("DDR4").disabled = true
+        }
+        if (ddr5_ram.options[0].selected === true) {
+            document.getElementById("DDR4").disabled = false
+        }
+    }
+
+    function select_hd_display() {
+        let hd_display = document.getElementById("HD19")
+        let i = hd_display.selectedIndex
+        document.getElementById("display").innerHTML = hd_display.options[i].text
+        if (hd_display.options[i].selected === true) {
+            document.getElementById("FHD24").disabled = true
+            document.getElementById("FHD27").disabled = true
+        }
+        if (hd_display.options[0].selected === true) {
+            document.getElementById("FHD24").disabled = false
+            document.getElementById("FHD27").disabled = false
+        }
+    }
+
+    function select_fhd24_display() {
+        let fhd24_display = document.getElementById("FHD24")
+        let i = fhd24_display.selectedIndex
+        document.getElementById("display").innerHTML = fhd24_display.options[i].text
+        if (fhd24_display.options[i].selected === true) {
+            document.getElementById("HD19").disabled = true
+            document.getElementById("FHD27").disabled = true
+        }
+        if (fhd24_display.options[0].selected === true) {
+            document.getElementById("HD19").disabled = false
+            document.getElementById("FHD27").disabled = false
+        }
+    }
+
+    function select_fhd27_display() {
+        let fhd27_display = document.getElementById("FHD27")
+        let i = fhd27_display.selectedIndex
+        document.getElementById("display").innerHTML = fhd27_display.options[i].text
+        if (fhd27_display.options[i].selected === true) {
+            document.getElementById("HD19").disabled = true
+            document.getElementById("FHD24").disabled = true
+        }
+        if (fhd27_display.options[0].selected === true) {
+            document.getElementById("HD19").disabled = false
+            document.getElementById("FHD24").disabled = false
+        }
+    }
+
+
+    // functiile afiseaza produsule selectate
+
+/*    function select_intel_processor() {
         let a = document.getElementById("CPU_INTEL").selectedIndex
         let b = document.getElementById("CPU_INTEL").options
         if (b[a] === b[0]) {
@@ -197,9 +301,9 @@
         } else {
             document.getElementById("CPU_AMD").disabled = false
         }
-    }
+    }*/
 
-    function select_amd_processor() {
+/*    function select_amd_processor() {
         let a = document.getElementById("CPU_AMD").selectedIndex
         let b = document.getElementById("CPU_AMD").options
         if (b[a] === b[0]) {
@@ -215,9 +319,9 @@
         } else {
             document.getElementById("CPU_INTEL").disabled = false
         }
-    }
+    }*/
 
-    function select_hdd () {
+/*    function select_hdd () {
         let a = document.getElementById("HDD").selectedIndex
         let b = document.getElementById("HDD").options
         if (b[a] === b[0]) {
@@ -233,9 +337,9 @@
         } else {
             document.getElementById("SDD").disabled = false
         }
-    }
+    }*/
 
-    function select_sdd () {
+/*    function select_sdd () {
         let a = document.getElementById("SDD").selectedIndex
         let b = document.getElementById("SDD").options
         if (b[a] === b[0]) {
@@ -253,9 +357,9 @@
         } else {
             document.getElementById("HDD").disabled = false
         }
-    }
+    }*/
 
-    function select_ddr4_ram() {
+/*    function select_ddr4_ram() {
         let a = document.getElementById("DDR4").selectedIndex
         let b = document.getElementById("DDR4").options
         if (b[a] === b[0]) {
@@ -271,9 +375,9 @@
         } else {
             document.getElementById("DDR5").disabled = false
         }
-    }
+    }*/
 
-    function select_ddr5_ram() {
+/*    function select_ddr5_ram() {
         let a = document.getElementById("DDR5").selectedIndex
         let b = document.getElementById("DDR5").options
         if (b[a] === b[0]) {
@@ -289,9 +393,9 @@
         } else {
             document.getElementById("DDR4").disabled = false
         }
-    }
+    }*/
 
-    function select_hd_display() {
+/*    function select_hd_display() {
         let a = document.getElementById("HD19").selectedIndex
         let b = document.getElementById("HD19").options
         if (b[a] === b[0]) {
@@ -309,9 +413,9 @@
             document.getElementById("FHD24").disabled = false
             document.getElementById("FHD27").disabled = false
         }
-    }
+    }*/
 
-    function select_fhd24_display() {
+/*    function select_fhd24_display() {
         let a = document.getElementById("FHD24").selectedIndex
         let b = document.getElementById("FHD24").options
         if (b[a] === b[0]) {
@@ -329,9 +433,9 @@
             document.getElementById("HD19").disabled = false
             document.getElementById("FHD27").disabled = false
         }
-    }
+    }*/
 
-    function select_fhd27_display() {
+/*    function select_fhd27_display() {
         let a = document.getElementById("FHD27").selectedIndex
         let b = document.getElementById("FHD27").options
         if (b[a] === b[0]) {
@@ -349,88 +453,230 @@
             document.getElementById("HD19").disabled = false
             document.getElementById("FHD24").disabled = false
         }
+    }*/
+
+
+    function buy() {
+        alert("Thank You!")
     }
 
 
     //Obiecte procesor
-    let processor_type =
-        {id: 'CPU0_i3', name: 'Procesor Intel Core i3-12100', price: '1059.10 lei', full_name: 'Procesor Intel Core i3-12100 - 3.30GHz - 4.30GHz, 12MB cache, 60W',
-            frequency: '3.30 GHz - 4.30 GHz', MB_cache: '12 MB cache', power: '60W',}
+    let processor_type = {
+        id: 'CPU0_i3',
+        name: 'Procesor Intel Core i3-12100',
+        price: '1059.10 lei',
+        full_name: 'Procesor Intel Core i3-12100 - 3.30GHz - 4.30GHz, 12MB cache, 60W',
+        frequency: '3.30 GHz - 4.30 GHz',
+        MB_cache: '12 MB cache',
+        power: '60W',}
 
     let tablou_intel_amd_processor = [processor_type,
-        {id: 'CPU1_i5', name: 'Procesor Intel Core i5-12600K', price: '1810.91 lei', full_name: 'Procesor Intel Core i5-12600K - 2.80GHz - 4.90GHz, 20MB cache, 125W',
-            frequency: '2.80GHz - 4.90GHz', MB_cache: '20MB cache', power: '125W'},
+        {
+            id: 'CPU1_i5',
+            name: 'Procesor Intel Core i5-12600K',
+            price: '1810.91 lei',
+            full_name: 'Procesor Intel Core i5-12600K - 2.80GHz - 4.90GHz, 20MB cache, 125W',
+            frequency: '2.80GHz - 4.90GHz',
+            MB_cache: '20MB cache',
+            power: '125W'
+        },
 
-        {id: 'CPU2_i7', name: 'Procesor Intel Core i7-12700K', price: '2631.09 lei', full_name: 'Procesor Intel Core i7-12700K - 3.60GHz - 5.00GHz, 25MB cache, 125W',
-            frequency: '3.60GHz - 5.00GHz', MB_cache: '25MB cache', power: '125W',},
+        {
+            id: 'CPU2_i7',
+            name: 'Procesor Intel Core i7-12700K',
+            price: '2631.09 lei',
+            full_name: 'Procesor Intel Core i7-12700K - 3.60GHz - 5.00GHz, 25MB cache, 125W',
+            frequency: '3.60GHz - 5.00GHz',
+            MB_cache: '25MB cache',
+            power: '125W',
+        },
 
-        {id: 'CPU3_R3', name: 'Procesor AMD Ryzen 3 4100', price: '752.65 lei', full_name: 'Procesor AMD Ryzen 3 4100 - 3.8GHz - 4.0GHz, 6MB Cache, 65W',
-            frequency: '3.8GHz - 4.0GHz', MB_cache: '6MB cache', power: '65W',}]
+        {
+            id: 'CPU3_R3',
+            name: 'Procesor AMD Ryzen 3 4100',
+            price: '752.65 lei',
+            full_name: 'Procesor AMD Ryzen 3 4100 - 3.8GHz - 4.0GHz, 6MB Cache, 65W',
+            frequency: '3.8GHz - 4.0GHz',
+            MB_cache: '6MB cache',
+            power: '65W',
+        }]
 
     tablou_intel_amd_processor.push(
-        {id: 'CPU4_R3', name: 'Procesor AMD Ryzen 3 3300X', price: '639.99 lei', full_name: 'Procesor AMD Ryzen 3 3300X - 3.8Ghz - 4.3GHz, 18MB Cache, 65W',
-            frequency: '3.8Ghz - 4.3GHz', MB_cache: '18MB cache', power: '65W',})
+        {
+            id: 'CPU4_R3',
+            name: 'Procesor AMD Ryzen 3 3300X',
+            price: '639.99 lei',
+            full_name: 'Procesor AMD Ryzen 3 3300X - 3.8Ghz - 4.3GHz, 18MB Cache, 65W',
+            frequency: '3.8Ghz - 4.3GHz',
+            MB_cache: '18MB cache',
+            power: '65W',
+        })
 
     for (let i = 0; i < tablou_intel_amd_processor.length; i++) {
         console.log(tablou_intel_amd_processor[i])
     }
 
     //Obiecte hdd si sdd
-    let hdd_sdd_capacity = {id: 'HDD_0', name: 'HDD WD', price: '434.45 lei', full_name: 'HDD WD 1TB, 7200rpm, 64MB cache, SATA III', capacity: '1TB',}
+    let hdd_sdd_capacity = {
+        id: 'HDD_0',
+        name: 'HDD WD',
+        price: '434.45 lei',
+        full_name: 'HDD WD 1TB, 7200rpm, 64MB cache, SATA III',
+        capacity: '1TB',
+    }
 
     let tablou_hdd_sdd_capacity = [hdd_sdd_capacity,
-        {id: 'HDD_1', name: 'HDD Seagate', price: '934.78 lei', full_name: 'HDD Seagate 4TB, 7200rpm, 128MB cache, SATA III', capacity: '4TB'},
+        {
+            id: 'HDD_1',
+            name: 'HDD Seagate',
+            price: '934.78 lei',
+            full_name: 'HDD Seagate 4TB, 7200rpm, 128MB cache, SATA III',
+            capacity: '4TB'
+        },
 
-        {id: 'SDD_0', name: 'Solid State Drive (SSD) Kingston A400', price: '89.99 lei', full_name: 'Solid State Drive (SSD) Kingston A400, 240GB, 2.5inch, SATA III', capacity: '240GB'},
+        {
+            id: 'SDD_0',
+            name: 'Solid State Drive (SSD) Kingston A400',
+            price: '89.99 lei',
+            full_name: 'Solid State Drive (SSD) Kingston A400, 240GB, 2.5inch, SATA III',
+            capacity: '240GB'
+        },
 
-        {id: 'SDD_1', name: 'Solid State Drive (SSD) Kingston A400', price: '139.00 lei', full_name: 'Solid State Drive (SSD) Kingston A400, 480GB, 2.5inch, SATA III', capacity: '480GB'}]
+        {
+            id: 'SDD_1',
+            name: 'Solid State Drive (SSD) Kingston A400',
+            price: '139.00 lei',
+            full_name: 'Solid State Drive (SSD) Kingston A400, 480GB, 2.5inch, SATA III',
+            capacity: '480GB'
+        }]
 
     tablou_hdd_sdd_capacity.push(
-        {id: 'SDD_2', name: 'Solid State Drive (SSD) Samsung 870 QVO', price: '368.99 lei', full_name: 'Solid State Drive (SSD) Samsung 870 QVO, 1TB, 2.5inch, SATA III', capacity: '1TB'})
+        {
+            id: 'SDD_2',
+            name: 'Solid State Drive (SSD) Samsung 870 QVO',
+            price: '368.99 lei',
+            full_name: 'Solid State Drive (SSD) Samsung 870 QVO, 1TB, 2.5inch, SATA III',
+            capacity: '1TB'})
 
     for (let i = 0; i < tablou_hdd_sdd_capacity.length; i++) {
         console.log(tablou_hdd_sdd_capacity[i])
     }
 
     //Obiecte RAM
-    let ram_capacity = {id: 'DDR4_0', name: 'Memorie Corsair Vengeance RGB PRO', price: '327.61 lei',
-        full_name: 'Memorie Corsair Vengeance RGB PRO, 16GB, DDR4, 3200MHz', capacity: '16GB', type: 'DDR4', frequency: '3200MHz'}
+    let ram_capacity = {
+        id: 'DDR4_0',
+        name: 'Memorie Corsair Vengeance RGB PRO',
+        price: '327.61 lei',
+        full_name: 'Memorie Corsair Vengeance RGB PRO, 16GB, DDR4, 3200MHz',
+        capacity: '16GB',
+        type: 'DDR4',
+        frequency: '3200MHz'
+    }
 
-    let tablou_ram_capacity = [{ram_capacity},
-        {id: 'DDR4_1', name: 'Memorie Corsair Vengeance LPX Black', price: '434.62 lei',
-            full_name: 'Memorie Corsair Vengeance LPX Black, 32GB, DDR4, 3200MHz', capacity: '32GB', type: 'DDR4', frequency: '3200MHz'},
+    let tablou_ram_capacity = [ram_capacity,
+        {
+            id: 'DDR4_1',
+            name: 'Memorie Corsair Vengeance LPX Black',
+            price: '434.62 lei',
+            full_name: 'Memorie Corsair Vengeance LPX Black, 32GB, DDR4, 3200MHz',
+            capacity: '32GB',
+            type: 'DDR4',
+            frequency: '3200MHz'
+        },
 
-        {id: 'DDR5_0', name: 'Memorie ADATA XPG LANCER RGB', price: '299.99 lei',
-            full_name: 'Memorie ADATA XPG LANCER RGB, 16GB DDR5, 5600MHz', capacity: '16GB', type: 'DDR5', frequency: '5600MHz'}]
+        {
+            id: 'DDR5_0',
+            name: 'Memorie ADATA XPG LANCER RGB',
+            price: '299.99 lei',
+            full_name: 'Memorie ADATA XPG LANCER RGB, 16GB DDR5, 5600MHz',
+            capacity: '16GB',
+            type: 'DDR5',
+            frequency: '5600MHz'
+        }]
 
     tablou_ram_capacity.push(
-        {id: 'DDR5_1', name: 'Memorie ADATA XPG LANCER RGB', price: '743.99 lei',
-            full_name:'Memorie ADATA XPG LANCER RGB, 32GB DDR5, 5200MHz', capacity: '32GB', type: 'DDR5', frequency: '5200MHz'})
+        {
+            id: 'DDR5_1',
+            name: 'Memorie ADATA XPG LANCER RGB',
+            price: '743.99 lei',
+            full_name:'Memorie ADATA XPG LANCER RGB, 32GB DDR5, 5200MHz',
+            capacity: '32GB',
+            type: 'DDR5',
+            frequency: '5200MHz'
+        })
 
     for (let i = 0; i < ram_capacity.length; i++) {
         console.log(tablou_ram_capacity[i])
     }
 
     //Obiecte display
-    let display_type = {id: 'HD19_0', name: 'Monitor LED Dell', price: '355.30 lei', full_name:'Monitor LED Dell, 19.5inch, HD+, VGA',
-        display_type: 'LED', display_size: '19.5"', resolution: 'HD+', cable: 'VGA'}
+    let display_type = {
+        id: 'HD19_0',
+        name: 'Monitor LED Dell',
+        price: '355.30 lei',
+        full_name:'Monitor LED Dell, 19.5inch, HD+, VGA',
+        display_type: 'LED',
+        display_size: '19.5"',
+        resolution: 'HD+',
+        cable: 'VGA'
+    }
 
     let tablou_display_type = [display_type,
-        {id: 'HD19_1', name: 'Monitor LED TN LG', price: '467.25 lei', full_name:'Monitor LED TN LG, 19.5inch, HD, HDMI',
-            display_type: 'LED', display_size: '19.5"', resolution: 'HD', cable: 'HDMI'},
+        {
+            id: 'HD19_1',
+            name: 'Monitor LED TN LG',
+            price: '467.25 lei',
+            full_name:'Monitor LED TN LG, 19.5inch, HD, HDMI',
+            display_type: 'LED',
+            display_size: '19.5"',
+            resolution: 'HD',
+            cable: 'HDMI'
+        },
 
-        {id: 'FHD24_0', name: 'Monitor LED MVA AOC', price: '482.99 lei', full_name: 'Monitor LED MVA AOC, 23.6inch, FHD, 2xHDMI',
-            display_type: 'LED', display_size: '23.6"', resolution: 'FHD', cable: '2xHDMI'},
+        {
+            id: 'FHD24_0',
+            name: 'Monitor LED MVA AOC',
+            price: '482.99 lei',
+            full_name: 'Monitor LED MVA AOC, 23.6inch, FHD, 2xHDMI',
+            display_type: 'LED',
+            display_size: '23.6"',
+            resolution: 'FHD',
+            cable: '2xHDMI'
+        },
 
-        {id: 'FHD24_1', name: 'Monitor LED MVA AOC', price: '501.99 lei', full_name: 'Monitor LED MVA AOC, 23.6inch, FHD, HDMI',
-            display_type: 'LED', display_size: '23.6"', resolution: 'FHD', cable: 'HDMI'},
+        {
+            id: 'FHD24_1',
+            name: 'Monitor LED MVA AOC',
+            price: '501.99 lei',
+            full_name: 'Monitor LED MVA AOC, 23.6inch, FHD, HDMI',
+            display_type: 'LED',
+            display_size: '23.6"',
+            resolution: 'FHD',
+            cable: 'HDMI'},
 
-        {id: 'FHD27_0', name: 'Monitor Philips LED VA', price: '612.99 lei', full_name: 'Monitor Philips LED VA, 27inch, FHD, HDMI, VGA',
-            display_type: 'LED VA', display_size: '27"', resolution: 'FHD', cable: 'HDMI, VGA'}]
+        {
+            id: 'FHD27_0',
+            name: 'Monitor Philips LED VA',
+            price: '612.99 lei',
+            full_name: 'Monitor Philips LED VA, 27inch, FHD, HDMI, VGA',
+            display_type: 'LED VA',
+            display_size: '27"',
+            resolution: 'FHD',
+            cable: 'HDMI, VGA'
+        }]
 
     tablou_display_type.push(
-        {id: 'FHD27_1', name: 'Monitor LG Gaming LED IPS', price: '649.99 lei', full_name: 'Monitor LG Gaming LED IPS, 27inch, FHD, VGA, HDMI, Display Port',
-            display_type: 'LED IPS', display_size: '27"', resolution: 'FHD', cable: 'VGA, HDMI, Display Port'})
+        {
+            id: 'FHD27_1',
+            name: 'Monitor LG Gaming LED IPS',
+            price: '649.99 lei',
+            full_name: 'Monitor LG Gaming LED IPS, 27inch, FHD, VGA, HDMI, Display Port',
+            display_type: 'LED IPS',
+            display_size: '27"',
+            resolution: 'FHD',
+            cable: 'VGA, HDMI, Display Port'
+        })
 
     for (let i = 0; i < tablou_display_type.length; i++) {
         console.log(tablou_display_type[i])
@@ -450,18 +696,6 @@
         calculate_price() {
         }
     }
-
-/*
-  for(let key in computer_configuration) {
-      console.log(computer_configuration[key])
-  }
-
-  function select_processor(selected) {
-      computer_configuration.selected_ram_value = e.target.value // in html punem atributul onchange="select_processor('procesor')
-
-  }
-*/
-
 
 </script>
 
